@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #flip-button {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  #coin-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .coin-heads {
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+    margin-right: 20px;
+  }
+  
+  .coin-tails {
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    border-radius: 50%;
+  }
+  
+  #result-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

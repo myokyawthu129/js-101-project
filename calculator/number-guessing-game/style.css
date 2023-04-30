@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #guess-input {
+    padding: 5px;
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  #guess-button {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  #result-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
